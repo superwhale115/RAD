@@ -11,7 +11,7 @@ Training deep reinforcement learning (RL) agents necessitates overcoming the hig
 1. All optimizers have been implemented in the Python file "optimizers.py", including RAD, ADAM, SGD (equaling HB when momentum is not 0), DLPF, NAG, RGD.
 2. Include the following code in your training script to utilize the corresponding optimizer.
 ```bash
-from optimizers import SGD, DLPF, NAG, Adam, RAD, RGD
+from optimizers import RAD, Adam, SGD, DLPF, RGD, NAG
 rad_optim = RAD(net.parameters(), lr=0.001, betas=(0.9, 0.999), delta=1, order=1, eps=1, eps_annealing=1e6)
 adam_optim = Adam(net.parameters(), lr=0.001, betas=(0.9, 0.999), eps=1e-16)
 hb_optim = SGD(net.parameters(), lr=0.001, momentum=0.9)
