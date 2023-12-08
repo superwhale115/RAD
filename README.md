@@ -20,6 +20,6 @@ rgd_optim = RGD(net.parameters(), lr=0.001, momentum=0.9, delta=1, order=1)
 nag_optim = NAG(net.parameters(), lr=0.001, momentum=0.9)
 sgd_optim = SGD(actor.parameters(), lr=0.001, momentum=0)
 ```
-s
+
 ## Supplementary materials
 Any user can find the supplementary in the "Supplementary materials" folder.
