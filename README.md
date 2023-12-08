@@ -5,6 +5,7 @@ Training deep reinforcement learning (RL) agents necessitates overcoming the hig
 ## Requirement
 1. Linux is preferred.
 2. Python 3.6 or greater. We recommend using Python 3.7.
+3. Pytorch installed.
 
 ## Quick Start
 1. All optimizers have been implemented in the Python file "optimizers.py", including RAD, ADAM, SGD (equaling HB when momentum is not 0), DLPF, NAG, RGD.
